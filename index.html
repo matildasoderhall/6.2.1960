@@ -4,9 +4,20 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css">
     <title>6.2.1960</title>
   </head>
   <body>
+    <main class="audio-player">
+      <div class="wrapper">
+        <button id="playButton">Play</button>
+        <input type="range" id="progressBar" class="progress-bar" value="0" max="0">
+        <p id="timeDisplay">0:00 / 0:00</p>
+      </div>
+      <footer>
+        <p>&copy; Tilde-Elias Hamrén <br>Webdesign Matilda Söderhäll<br>Tack till Erik och Anita Hansson</p>
+      </footer>
+    </main>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>

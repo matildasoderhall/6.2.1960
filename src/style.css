@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(83, 83, 83);
+}
+
+main {
+  padding-top: 45vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.wrapper {
+  display: flex;
+  color: rgb(255, 240, 240);
+  border: 2px solid black;
+  width: 100%;
+}
+
+input {
+  margin-left: 16px;
+}
+
+button {
+  width: 30%;
+}
+
+p {
+  padding-right: 8px;
+}
+
+
+
+
+footer {
+  display: flex;
+  color: rgb(255, 240, 240);
+  position: absolute;
+  bottom: 0px;
+}
