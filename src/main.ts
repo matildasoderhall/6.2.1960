@@ -1,4 +1,5 @@
-const audioSrc: string = '/src/assets/test_ljud.mp3'; 
+import sound from 'src/assets/test_ljud.mp3';
+const audioSrc = sound; 
 const audio: HTMLAudioElement = new Audio(audioSrc);
 let isPlaying: boolean = false;
 let currentTime: number = 0;
