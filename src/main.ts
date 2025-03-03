@@ -1,5 +1,4 @@
-import sound from 'src/assets/test_ljud.mp3';
-const audioSrc = sound; 
+const audioSrc = new URL('/src/assets/test_ljud.mp3', import.meta.url).href;
 const audio: HTMLAudioElement = new Audio(audioSrc);
 let isPlaying: boolean = false;
 let currentTime: number = 0;
