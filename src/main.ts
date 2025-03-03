@@ -1,4 +1,4 @@
-const audioSrc: string = '/src/assets/test_ljud.mp3'; // Replace with your audio file path
+const audioSrc: string = '/public/test_ljud.mp3'; // Replace with your audio file path
 const audio: HTMLAudioElement = new Audio(audioSrc);
 let isPlaying: boolean = false;
 let currentTime: number = 0;
