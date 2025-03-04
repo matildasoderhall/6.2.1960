@@ -1,4 +1,4 @@
-const audioSrc = new URL('/src/assets/test_ljud.mp3', import.meta.url).href;
+const audioSrc = new URL('/src/assets/audio.mp3', import.meta.url).href;
 const audio: HTMLAudioElement = new Audio(audioSrc);
 let isPlaying: boolean = false;
 let currentTime: number = 0;
