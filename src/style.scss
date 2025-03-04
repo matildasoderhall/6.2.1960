@@ -24,20 +24,14 @@ input {
 
 button {
   width: 30%;
+  color: black;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px; 
 }
 
 p {
   padding-right: 8px;
 }
-
-@supports (-webkit-touch-callout: none) {
-  button { 
-    border-radius: 0;
-    color: black;
-  }
-
-}
-
 
 footer {
   display: flex;
