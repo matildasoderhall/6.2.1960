@@ -35,6 +35,8 @@ p {
 
 footer {
   display: flex;
+  justify-content: center;
+  width: 100%;
   color: rgb(255, 240, 240);
   position: absolute;
   bottom: 0px;
