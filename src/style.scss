@@ -30,7 +30,13 @@ p {
   padding-right: 8px;
 }
 
+@supports (-webkit-touch-callout: none) {
+  button { 
+    border-radius: 0;
+    color: black;
+  }
 
+}
 
 
 footer {
